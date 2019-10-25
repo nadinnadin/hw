@@ -1,0 +1,21 @@
+@media screen and (max-width: 725px){ 
+footer{
+
+}
+footer img{
+	margin: 0 auto;
+}
+
+}
+@media screen and (max-width: 1200px){ 
+
+
+
+
+}
+
+@media screen and (max-width: 900px){
+	.navigation{
+		display: none;
+	}
+}
