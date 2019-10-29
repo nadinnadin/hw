@@ -2,7 +2,7 @@
 $handle = fopen("php://stdin","r");
 $diamond = fgets($handle);
 
-if($n % 2 == 0){
+if($diamond % 2 == 0){
 	echo "четное число";
 }
 else{
