@@ -11,10 +11,9 @@ $readfb = function($txt) use ($file2){
 	$sum = range(1, $s[2]);
 
 	$fizzbuzz = function($i) use ($fizz,$buzz){
-
-			$str =(($i % $fizz == 0) && ($i % $buzz == 0))?"FB ":(($i % $fizz == 0)?"F ":(($i % $buzz == 0)?"B ":$i." "));
-			return $str;
-		};
+		$str =(($i % $fizz == 0) && ($i % $buzz == 0))?"FB ":(($i % $fizz == 0)?"F ":(($i % $buzz == 0)?"B ":$i." "));
+		return $str;
+	};
 
 	$result2 = implode("", array_map($fizzbuzz, $sum));
 	fwrite($file2, $result2.PHP_EOL);
