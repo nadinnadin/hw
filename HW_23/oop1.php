@@ -146,11 +146,11 @@ class Rectangle extends Polygon
             $this->a = $new_val;
         }
     }
-    public function get_b()
+    private function get_b()
     {
         return $this->b;
     }
-    public function set_b($new_val)
+    private function set_b($new_val)
     {
         if (is_numeric($new_val)) {
             $this->b = $new_val;
