@@ -121,7 +121,7 @@ class Circle extends Figure
 class Rectangle extends Polygon
 {
     protected  $a;
-    protected $b;
+    private $b;
     function __construct()
     {
         $this->number_of_sides = 4;
@@ -160,8 +160,7 @@ class Rectangle extends Polygon
 }
 class Square extends Rectangle
 {
-    protected $a;
-
+ 
     function __construct()
     {
         $this->number_of_sides =4;
