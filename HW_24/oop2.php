@@ -3,7 +3,7 @@
 abstract class Hobbies{
 
     function writeHobby(){
-        echo "i have a hobby ".strtolower(get_class($this))." \n";
+        echo "I have a hobby ".strtolower(get_class($this))." \n";
         echo $this->additionalInfo() ."\n";
     }
 
