@@ -1,0 +1,21 @@
+{
+    "name": "pusachev/mvc",
+    "description": "simple mvc example",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Pavel Usachev",
+            "email": "pavel.usachev@balanceinternet.com.au"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require" : {
+        "ext-mysqli": "*"
+    }
+}
